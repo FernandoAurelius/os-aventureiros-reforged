@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oar_combat:orichalcum_fragment"
+    },
+    {
+      "item": "oar_combat:orichalcum_fragment"
+    },
+    {
+      "item": "oar_combat:orichalcum_fragment"
+    },
+    {
+      "item": "oar_combat:orichalcum_fragment"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "oar_combat:orichalcum_ingot",
+    "count": 1
+  }
+}

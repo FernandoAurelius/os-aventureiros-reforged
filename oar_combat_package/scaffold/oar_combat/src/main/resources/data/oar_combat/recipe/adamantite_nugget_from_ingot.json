@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/adamantite"
+    }
+  ],
+  "result": {
+    "id": "oar_combat:adamantite_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oar_combat:silver_ore",
+    "oar_combat:deepslate_silver_ore",
+    "oar_combat:mythril_ore",
+    "oar_combat:deepslate_mythril_ore"
+  ]
+}

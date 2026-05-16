@@ -1,0 +1,20 @@
+# Spartan Weaponry Unofficial compat notes for OAR Combat
+# This is not a drop-in replacement config. It is a checklist/snippet area.
+
+# Runtime confirmed mod id:
+# spartan_weaponry_unofficial
+
+# Confirmed archetypes:
+# dagger, parrying_dagger, longsword, katana, saber, rapier, greatsword,
+# club, cestus, battle_hammer, warhammer, spear, halberd, pike, lance,
+# longbow, heavy_crossbow, throwing_knife, tomahawk, javelin, boomerang,
+# battleaxe, flanged_mace, glaive, quarterstaff, scythes
+
+# Risk found in runtime:
+# missing tag #c:ingots/aluminum
+# invalid trait warning: spartan_weaponry_unofficial:reach_1 for Javelin
+
+# Recommended approach:
+# 1. Provide c:ingots/tin, bronze, steel, silver from OAR data.
+# 2. Provide empty c:ingots/aluminum tag only if it fixes missing tag without side effects.
+# 3. Do not depend on reach_1 until the trait registry is checked.

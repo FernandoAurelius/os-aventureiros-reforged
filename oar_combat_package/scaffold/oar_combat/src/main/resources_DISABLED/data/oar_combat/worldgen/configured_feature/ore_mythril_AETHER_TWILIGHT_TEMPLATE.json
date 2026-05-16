@@ -1,0 +1,10 @@
+{
+  "status": "disabled_template",
+  "reason": "Do not enable until Aether/Twilight worldgen target is validated in runtime",
+  "candidate_biomes": [
+    "aether:skyroot_forest",
+    "aether:skyroot_grove",
+    "twilightforest:enchanted_forest",
+    "twilightforest:highlands"
+  ]
+}

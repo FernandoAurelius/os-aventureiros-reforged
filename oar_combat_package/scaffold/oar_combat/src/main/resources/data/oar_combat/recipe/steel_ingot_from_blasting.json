@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "oar_combat:raw_steel_blend"
+  },
+  "result": {
+    "id": "oar_combat:steel_ingot"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "mod_id": "oar_combat",
+  "minecraft_version": "1.21.1",
+  "neoforge_version": "21.1.229",
+  "materials": {
+    "tin": {
+      "role": "alloy support for bronze",
+      "color_hex": "#b8b2a4",
+      "items": [
+        "raw_tin",
+        "tin_ingot",
+        "tin_nugget",
+        "tin_block",
+        "tin_ore",
+        "deepslate_tin_ore"
+      ],
+      "worldgen": {
+        "enabled_alpha": true,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "y_min": 32,
+        "y_max": 96,
+        "rarity": "moderate",
+        "vein_size": 8,
+        "veins_per_chunk": 7
+      }
+    },
+    "bronze": {
+      "role": "early alternative",
+      "visual": "warm copper-bronze utilitarian alloy",
+      "color_hex": "#c8752f",
+      "crafting": "3 minecraft:copper_ingot + 1 c:ingots/tin => 4 oar_combat:bronze_ingot",
+      "armor": {
+        "helmet": 2,
+        "chestplate": 5,
+        "leggings": 4,
+        "boots": 1,
+        "total": 12,
+        "toughness": 0.0,
+        "knockback_resistance": 0.0
+      },
+      "tool_tier": {
+        "uses": 180,
+        "speed": 5.5,
+        "attack_damage_bonus": 1.5,
+        "incorrect_blocks_for_drops": "minecraft:incorrect_for_iron_tool",
+        "enchantment_value": 14
+      },
+      "rules": [
+        "must not outperform iron in defense",
+        "cheap and versatile"
+      ]
+    },
+    "steel": {
+      "role": "mid-game military refinement",
+      "visual": "cold grey refined iron, durable and practical",
+      "color_hex": "#9a9c9c",
+      "crafting": "iron + coal -> raw_steel_blend; blasting -> steel_ingot",
+      "armor": {
+        "helmet": 2,
+        "chestplate": 6,
+        "leggings": 5,
+        "boots": 2,
+        "total": 15,
+        "toughness": 1.0,
+        "knockback_resistance": 0.0,
+        "set_movement_modifier": -0.02
+      },
+      "tool_tier": {
+        "uses": 420,
+        "speed": 6.5,
+        "attack_damage_bonus": 2.0,
+        "incorrect_blocks_for_drops": "minecraft:incorrect_for_diamond_tool",
+        "enchantment_value": 10
+      },
+      "rules": [
+        "not an ore",
+        "durable but not magical",
+        "between iron and diamond"
+      ]
+    },
+    "silver": {
+      "role": "situational anti-undead and mystical material",
+      "visual": "bright noble silver",
+      "color_hex": "#d8d8cf",
+      "worldgen": {
+        "enabled_alpha": true,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "y_min": -32,
+        "y_max": 48,
+        "rarity": "uncommon",
+        "vein_size": 5,
+        "veins_per_chunk": 4
+      },
+      "armor": {
+        "helmet": 2,
+        "chestplate": 5,
+        "leggings": 4,
+        "boots": 2,
+        "total": 13,
+        "toughness": 0.0,
+        "knockback_resistance": 0.0
+      },
+      "tool_tier": {
+        "uses": 220,
+        "speed": 6.0,
+        "attack_damage_bonus": 1.8,
+        "incorrect_blocks_for_drops": "minecraft:incorrect_for_iron_tool",
+        "enchantment_value": 18
+      },
+      "combat_effect": {
+        "tag": "oar_combat:silver_vulnerable",
+        "bonus_damage": 2.0
+      },
+      "rules": [
+        "lower durability",
+        "strong only against tagged vulnerable mobs"
+      ]
+    },
+    "mythril": {
+      "role": "late-mid lateral elven mobility material",
+      "visual": "Tolkien-style elven silver-blue metal, light, noble, luminous",
+      "color_hex": "#9ed7e8",
+      "worldgen": {
+        "enabled_alpha": false,
+        "preferred_sources": [
+          "Aether loot",
+          "Twilight Forest loot"
+        ],
+        "do_not_enable_until_validated": true
+      },
+      "armor": {
+        "helmet": 3,
+        "chestplate": 6,
+        "leggings": 5,
+        "boots": 2,
+        "total": 16,
+        "toughness": 1.0,
+        "knockback_resistance": 0.0,
+        "set_movement_modifier": 0.05,
+        "fall_damage_reduction": 0.1
+      },
+      "tool_tier": {
+        "uses": 720,
+        "speed": 8.0,
+        "attack_damage_bonus": 2.5,
+        "incorrect_blocks_for_drops": "minecraft:incorrect_for_diamond_tool",
+        "enchantment_value": 22
+      },
+      "rules": [
+        "lateral to diamond",
+        "mobility not raw defense",
+        "no flight in alpha"
+      ]
+    },
+    "adamantite": {
+      "role": "late defensive heavy ancestral metal",
+      "visual": "dark gunmetal / metallic obsidian, austere, dense, ancient, not netherite recolor",
+      "color_hex": "#323039",
+      "worldgen": {
+        "enabled_alpha": true,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "y_min": -64,
+        "y_max": -32,
+        "rarity": "very_rare",
+        "vein_size": 3,
+        "veins_per_chunk": 1
+      },
+      "armor": {
+        "helmet": 3,
+        "chestplate": 8,
+        "leggings": 6,
+        "boots": 3,
+        "total": 20,
+        "toughness": 2.0,
+        "knockback_resistance": 0.1,
+        "set_movement_modifier": -0.05
+      },
+      "tool_tier": {
+        "uses": 1400,
+        "speed": 7.0,
+        "attack_damage_bonus": 3.0,
+        "incorrect_blocks_for_drops": "minecraft:incorrect_for_netherite_tool",
+        "enchantment_value": 8
+      },
+      "rules": [
+        "defensive lateral to netherite",
+        "no lava resistance parity in alpha",
+        "slow and heavy"
+      ]
+    },
+    "orichalcum": {
+      "role": "legendary upgrade component",
+      "visual": "deep green luminous metal, carved with arcane runes on the ingot",
+      "color_hex": "#168d44",
+      "worldgen": {
+        "enabled_alpha": false,
+        "source": "rare loot/fragments only"
+      },
+      "items": [
+        "orichalcum_fragment",
+        "orichalcum_ingot",
+        "orichalcum_upgrade_smithing_template"
+      ],
+      "rules": [
+        "no common ore",
+        "no full armor set in alpha",
+        "used for unique upgrades"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "oar_combat:item/orichalcum_fragment" }
+}

@@ -1,0 +1,36 @@
+{
+  "fallback_compatibility": [
+    {
+      "item_id_regex": "^oar_combat:.*(dagger|knife).*$",
+      "weapon_attributes": "bettercombat:dagger"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*rapier.*$",
+      "weapon_attributes": "bettercombat:rapier"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*katana.*$",
+      "weapon_attributes": "bettercombat:katana"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*spear.*$",
+      "weapon_attributes": "bettercombat:spear"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*glaive.*$",
+      "weapon_attributes": "bettercombat:glaive"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*halberd.*$",
+      "weapon_attributes": "bettercombat:halberd"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*(hammer|mace|club).*$",
+      "weapon_attributes": "bettercombat:mace"
+    },
+    {
+      "item_id_regex": "^oar_combat:.*(sword|blade).*$",
+      "weapon_attributes": "bettercombat:sword"
+    }
+  ]
+}

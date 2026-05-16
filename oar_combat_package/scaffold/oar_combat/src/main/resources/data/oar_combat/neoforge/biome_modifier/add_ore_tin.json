@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "oar_combat:ore_tin",
+  "step": "underground_ores"
+}

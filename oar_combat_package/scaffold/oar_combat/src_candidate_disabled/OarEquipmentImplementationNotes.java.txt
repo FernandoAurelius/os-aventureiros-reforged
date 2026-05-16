@@ -1,0 +1,30 @@
+/*
+Implementation notes for Codex:
+
+1. Confirm exact 1.21.1 constructors for:
+   - ArmorMaterial
+   - ArmorItem
+   - Tier / ToolMaterial
+   - SwordItem / AxeItem / PickaxeItem / ShovelItem / HoeItem
+
+2. Register sets:
+   bronze_helmet/chestplate/leggings/boots
+   steel_helmet/chestplate/leggings/boots
+   silver_helmet/chestplate/leggings/boots
+   mythril_helmet/chestplate/leggings/boots
+   adamantite_helmet/chestplate/leggings/boots
+
+3. Register simple vanilla-like tools first:
+   sword, pickaxe, axe, shovel, hoe for bronze/steel/silver/mythril/adamantite.
+
+4. Implement silver bonus by hooking LivingHurtEvent or equivalent NeoForge event:
+   if source entity is LivingEntity player/mob and held item has tag oar_combat:silver_weapons
+   and target entity type is in tag oar_combat:silver_vulnerable
+   add OarServerConfig.SILVER_BONUS_DAMAGE.
+
+5. Implement full-set effects later:
+   Mythril: movement speed +0.05, fall damage -10%.
+   Adamantite: movement speed -0.05, high toughness.
+
+6. Keep Better Combat/Spartan optional.
+*/

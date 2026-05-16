@@ -1,0 +1,72 @@
+{
+  "confirmed_mod_ids": [
+    "aether",
+    "twilightforest",
+    "lootr",
+    "waystones",
+    "bettercombat",
+    "spartan_weaponry_unofficial",
+    "playeranimator",
+    "cloth_config",
+    "tiny_config",
+    "terralith",
+    "mr_dungeons_andtaverns",
+    "new_classic_battle_towers",
+    "travelersbackpack",
+    "accessories"
+  ],
+  "dimensions": {
+    "aether": {
+      "dimension": "aether:dimension/the_aether",
+      "dimension_type": "aether:dimension_type/the_aether"
+    },
+    "twilightforest": {
+      "dimension": "twilightforest:dimension/twilight_forest",
+      "dimension_type": "twilightforest:dimension_type/twilight_forest_type"
+    },
+    "overworld": {
+      "dimension": "minecraft:dimension/overworld",
+      "note": "Terralith modifies overworld"
+    }
+  },
+  "bettercombat_presets": [
+    "bettercombat:dagger",
+    "bettercombat:sword",
+    "bettercombat:mace",
+    "bettercombat:spear",
+    "bettercombat:halberd",
+    "bettercombat:glaive",
+    "bettercombat:lance",
+    "bettercombat:katana",
+    "bettercombat:rapier",
+    "bettercombat:trident"
+  ],
+  "spartan_archetypes": [
+    "dagger",
+    "parrying_dagger",
+    "longsword",
+    "katana",
+    "saber",
+    "rapier",
+    "greatsword",
+    "club",
+    "cestus",
+    "battle_hammer",
+    "warhammer",
+    "spear",
+    "halberd",
+    "pike",
+    "lance",
+    "longbow",
+    "heavy_crossbow",
+    "throwing_knife",
+    "tomahawk",
+    "javelin",
+    "boomerang",
+    "battleaxe",
+    "flanged_mace",
+    "glaive",
+    "quarterstaff",
+    "scythes"
+  ]
+}

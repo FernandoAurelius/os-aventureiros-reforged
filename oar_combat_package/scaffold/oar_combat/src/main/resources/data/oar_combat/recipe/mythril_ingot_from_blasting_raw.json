@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "oar_combat:raw_mythril"
+  },
+  "result": {
+    "id": "oar_combat:mythril_ingot"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "battle_towers": [
+    "new_classic_battle_towers:loot_table/towerloot_1",
+    "new_classic_battle_towers:loot_table/towerloot_2"
+  ],
+  "nova_structures": [
+    "nova_structures:loot_table/chests/dungeon_1",
+    "nova_structures:loot_table/chests/dungeon_2",
+    "nova_structures:loot_table/chests/dungeon_3",
+    "nova_structures:loot_table/chests/dungeon_4",
+    "nova_structures:loot_table/chests/dungeon_5",
+    "nova_structures:loot_table/chests/dungeon_6",
+    "nova_structures:loot_table/chests/dungeon_7",
+    "nova_structures:loot_table/chests/creeping_crypt/vault_creeping",
+    "nova_structures:loot_table/chests/desert_ruins/desert_ruin_main_temple",
+    "nova_structures:loot_table/chests/end_castle/greater_loot",
+    "nova_structures:loot_table/chests/illager_hideout_weaponry",
+    "nova_structures:loot_table/chests/lone_citadel/c_vault",
+    "nova_structures:loot_table/chests/piglin_donjon/vault_piglin_donjon",
+    "nova_structures:loot_table/chests/shrine/combat_treasure_1",
+    "nova_structures:loot_table/chests/shrine/combat_treasure_2",
+    "nova_structures:loot_table/chests/shrine/combat_treasure_3",
+    "nova_structures:loot_table/chests/shrine/combat_treasure_4",
+    "nova_structures:loot_table/chests/shrine/combat_treasure_5",
+    "nova_structures:loot_table/chests/stray_fort_tresure"
+  ],
+  "terralith": [
+    "terralith:loot_table/spire/treasure",
+    "terralith:loot_table/mage/treasure",
+    "terralith:loot_table/underground/chest"
+  ],
+  "recommended_injection_policy": {
+    "low_tier": [
+      "tin_ingot",
+      "bronze_ingot",
+      "damaged_bronze_equipment"
+    ],
+    "mid_tier": [
+      "steel_ingot",
+      "silver_ingot",
+      "damaged_silver_weapon"
+    ],
+    "high_tier": [
+      "mythril_fragment",
+      "adamantite_raw",
+      "orichalcum_fragment_very_rare"
+    ]
+  }
+}
