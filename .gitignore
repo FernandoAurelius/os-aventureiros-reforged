@@ -1,0 +1,28 @@
+# Runtime state
+logs/
+world/
+crash-reports/
+debug/
+.mixin.out/
+
+# Player/admin state
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+usernamecache.json
+whitelist.json
+
+# Generated/server-local files
+libraries/
+neoforge-installer.jar
+neoforge-installer.jar.log
+serverpack.tar.gz
+*.log
+*.log.gz
+*.lck
+
+# Local backups and temporary files
+*.bak
+*.tmp
+*.pid
