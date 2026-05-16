@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "oar_combat:ore_mythril",
+  "step": "underground_ores"
+}

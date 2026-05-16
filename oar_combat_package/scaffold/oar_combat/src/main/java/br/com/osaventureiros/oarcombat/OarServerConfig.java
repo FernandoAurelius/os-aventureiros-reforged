@@ -24,7 +24,7 @@ public final class OarServerConfig {
         builder.push("worldgen");
         ENABLE_TIN_ORE = builder.comment("Generate tin ore in the Overworld.").define("enableTinOre", true);
         ENABLE_SILVER_ORE = builder.comment("Generate silver ore in the Overworld.").define("enableSilverOre", true);
-        ENABLE_MYTHRIL_ORE = builder.comment("Generate mythril ore. Disabled by default until dimensional worldgen is validated.").define("enableMythrilOre", false);
+        ENABLE_MYTHRIL_ORE = builder.comment("Generate mythril ore in the Aether.").define("enableMythrilOre", true);
         ENABLE_OVERWORLD_ADAMANTITE_ORE = builder.comment("Generate adamantite ore in deep Overworld.").define("enableOverworldAdamantiteOre", true);
         ENABLE_NETHER_ADAMANTITE_ORE = builder.comment("Generate adamantite ore in the Nether.").define("enableNetherAdamantiteOre", true);
         builder.pop();
