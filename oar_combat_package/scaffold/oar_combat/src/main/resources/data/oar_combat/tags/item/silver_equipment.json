@@ -1,4 +1,14 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "oar_combat:silver_helmet",
+    "oar_combat:silver_chestplate",
+    "oar_combat:silver_leggings",
+    "oar_combat:silver_boots",
+    "oar_combat:silver_sword",
+    "oar_combat:silver_pickaxe",
+    "oar_combat:silver_axe",
+    "oar_combat:silver_shovel",
+    "oar_combat:silver_hoe"
+  ]
 }

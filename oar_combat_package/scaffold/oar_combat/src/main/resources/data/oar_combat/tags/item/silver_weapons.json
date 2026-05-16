@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "oar_combat:silver_sword",
+    "oar_combat:silver_pickaxe",
+    "oar_combat:silver_axe",
+    "oar_combat:silver_shovel",
+    "oar_combat:silver_hoe"
+  ]
+}

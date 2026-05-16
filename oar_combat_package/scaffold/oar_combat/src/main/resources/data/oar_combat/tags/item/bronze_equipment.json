@@ -1,4 +1,14 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "oar_combat:bronze_helmet",
+    "oar_combat:bronze_chestplate",
+    "oar_combat:bronze_leggings",
+    "oar_combat:bronze_boots",
+    "oar_combat:bronze_sword",
+    "oar_combat:bronze_pickaxe",
+    "oar_combat:bronze_axe",
+    "oar_combat:bronze_shovel",
+    "oar_combat:bronze_hoe"
+  ]
 }

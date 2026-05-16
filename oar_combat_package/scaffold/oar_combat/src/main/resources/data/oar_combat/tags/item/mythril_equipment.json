@@ -1,4 +1,17 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "oar_combat:mythril_helmet",
+    "oar_combat:mythril_chestplate",
+    "oar_combat:mythril_leggings",
+    "oar_combat:mythril_boots",
+    "oar_combat:mythril_sword",
+    "oar_combat:mythril_pickaxe",
+    "oar_combat:mythril_axe",
+    "oar_combat:mythril_shovel",
+    "oar_combat:mythril_hoe",
+    "oar_combat:mythril_longsword",
+    "oar_combat:mythril_spear",
+    "oar_combat:mythril_battleaxe"
+  ]
 }

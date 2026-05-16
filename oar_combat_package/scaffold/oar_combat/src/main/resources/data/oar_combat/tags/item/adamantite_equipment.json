@@ -1,4 +1,17 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "oar_combat:adamantite_helmet",
+    "oar_combat:adamantite_chestplate",
+    "oar_combat:adamantite_leggings",
+    "oar_combat:adamantite_boots",
+    "oar_combat:adamantite_sword",
+    "oar_combat:adamantite_pickaxe",
+    "oar_combat:adamantite_axe",
+    "oar_combat:adamantite_shovel",
+    "oar_combat:adamantite_hoe",
+    "oar_combat:adamantite_longsword",
+    "oar_combat:adamantite_spear",
+    "oar_combat:adamantite_battleaxe"
+  ]
 }
