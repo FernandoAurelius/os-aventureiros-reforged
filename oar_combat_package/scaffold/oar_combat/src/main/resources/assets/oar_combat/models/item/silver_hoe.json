@@ -1,4 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
-  "textures": { "layer0": "oar_combat:item/silver_ingot" }
+  "textures": {
+    "layer0": "oar_combat:item/silver_hoe"
+  }
 }
