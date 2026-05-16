@@ -127,9 +127,11 @@
       "worldgen": {
         "enabled_alpha": false,
         "preferred_sources": [
+          "Aether natural ore after runtime validation",
           "Aether loot",
           "Twilight Forest loot"
         ],
+        "preferred_dimension_for_natural_ore": "aether:dimension/the_aether",
         "do_not_enable_until_validated": true
       },
       "armor": {
@@ -153,7 +155,8 @@
       "rules": [
         "lateral to diamond",
         "mobility not raw defense",
-        "no flight in alpha"
+        "no flight in alpha",
+        "must exist through dimensional loot even before natural ore is enabled"
       ]
     },
     "adamantite": {
@@ -163,8 +166,10 @@
       "worldgen": {
         "enabled_alpha": true,
         "dimensions": [
-          "minecraft:overworld"
+          "minecraft:overworld",
+          "minecraft:the_nether"
         ],
+        "alpha_bootstrap_dimension": "minecraft:overworld",
         "y_min": -64,
         "y_max": -32,
         "rarity": "very_rare",
@@ -191,7 +196,8 @@
       "rules": [
         "defensive lateral to netherite",
         "no lava resistance parity in alpha",
-        "slow and heavy"
+        "slow and heavy",
+        "dual-source target is overworld deep plus nether, but rollout may be staged"
       ]
     },
     "orichalcum": {
@@ -210,7 +216,8 @@
       "rules": [
         "no common ore",
         "no full armor set in alpha",
-        "used for unique upgrades"
+        "used for unique upgrades",
+        "v1 focus is weapon and tool upgrades"
       ]
     }
   }

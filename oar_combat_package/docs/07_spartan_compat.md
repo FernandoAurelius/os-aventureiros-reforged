@@ -64,6 +64,13 @@
 4. Nao depender de trait `reach_1` ate confirmar registro real.
 5. Fazer compat via tags/receitas/config, nao via internals instaveis.
 
+## Direcao confirmada
+
+- Spartan continua opcional como dependencia, mas deve ficar integrada a gameplay do pack.
+- O objetivo ideal e integrar os novos materiais do `oar_combat` ao Spartan via API oficial, se ela existir e for viavel nesta versao.
+- Se nao houver API segura para materiais customizados, usar camada defensiva por tags, receitas, loot e compat de fallback sem quebrar o mod quando Spartan estiver ausente.
+- A investigacao da API do Spartan virou item obrigatorio antes da fase de armas finais.
+
 ## Arquivos incluidos
 
 - `config_templates/spartan/spartan_compat_notes.toml`

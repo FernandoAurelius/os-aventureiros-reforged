@@ -18,6 +18,7 @@ public final class OarItems {
     public static final DeferredItem<BlockItem> DEEPSLATE_MYTHRIL_ORE = ITEMS.registerSimpleBlockItem("deepslate_mythril_ore", OarBlocks.DEEPSLATE_MYTHRIL_ORE);
     public static final DeferredItem<BlockItem> ADAMANTITE_ORE = ITEMS.registerSimpleBlockItem("adamantite_ore", OarBlocks.ADAMANTITE_ORE);
     public static final DeferredItem<BlockItem> DEEPSLATE_ADAMANTITE_ORE = ITEMS.registerSimpleBlockItem("deepslate_adamantite_ore", OarBlocks.DEEPSLATE_ADAMANTITE_ORE);
+    public static final DeferredItem<BlockItem> NETHER_ADAMANTITE_ORE = ITEMS.registerSimpleBlockItem("nether_adamantite_ore", OarBlocks.NETHER_ADAMANTITE_ORE);
     public static final DeferredItem<BlockItem> TIN_BLOCK = ITEMS.registerSimpleBlockItem("tin_block", OarBlocks.TIN_BLOCK);
     public static final DeferredItem<BlockItem> BRONZE_BLOCK = ITEMS.registerSimpleBlockItem("bronze_block", OarBlocks.BRONZE_BLOCK);
     public static final DeferredItem<BlockItem> STEEL_BLOCK = ITEMS.registerSimpleBlockItem("steel_block", OarBlocks.STEEL_BLOCK);

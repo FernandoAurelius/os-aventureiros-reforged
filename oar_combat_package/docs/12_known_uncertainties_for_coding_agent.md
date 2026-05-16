@@ -30,3 +30,12 @@ The package intentionally does not force a Global Loot Modifier implementation i
 ## Mythril worldgen
 
 Keep disabled until Aether/Twilight dimensional placement is validated. Prefer loot-based Mythril in alpha.
+
+## Design decisions already resolved
+
+- The addon is a pure NeoForge mod, not a KubeJS-first implementation.
+- Mythril should exist via dimensional loot in alpha and may gain natural Aether ore after runtime validation.
+- Adamantite is intended for both deep Overworld and Nether, but the first stable implementation can start with only one source.
+- Orichalcum is upgrade-focused in v1, mainly for weapons and tools, not a full armor set.
+- Armor set effects are in scope for alpha, but must remain conservative and configurable.
+- Spartan is optional as dependency but integrated into gameplay; investigate API exposure for custom materials before final weapon rollout.

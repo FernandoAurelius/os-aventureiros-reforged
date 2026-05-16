@@ -33,3 +33,19 @@ A fonte machine-readable esta em `machine_readable/material_definitions.json`.
 - Mythril nao deve permitir voo, salto exagerado ou imunidade a queda.
 - Silver so deve brilhar contra tags vulneraveis.
 - Orichalcum deve ser componente/upgrade, nao set farmavel.
+
+## Decisoes de implementacao confirmadas
+
+- `Mythril` entra primeiro como loot dimensional basico e pode ganhar minerio natural no Aether se o worldgen modded for validado com IDs reais de dimensao, bioma e colocacao.
+- `Adamantite` deve ter roteiro de presenca em Overworld profundo e Nether, mas sem sacrificar a fase inicial de compilacao e validacao do mod.
+- `Orichalcum` fica restrito a upgrades de armas e ferramentas na v1.
+- Efeitos de set de armadura entram no escopo do alpha, desde que sejam leves, configuraveis e especializados.
+
+## Direcao mecanica dos sets
+
+- Bronze: utilitario, sem bonus exagerado; no maximo alguma resiliencia leve de early game.
+- Steel: disciplina militar, bonus pequeno de estabilidade ou knockback resist.
+- Silver: efeito contra mobs em `oar_combat:silver_vulnerable`.
+- Mythril: mobilidade e exploracao, com bonus leve de movimento/queda.
+- Adamantite: tanque, com custo claro de mobilidade.
+- Orichalcum: nao definir set no alpha.
