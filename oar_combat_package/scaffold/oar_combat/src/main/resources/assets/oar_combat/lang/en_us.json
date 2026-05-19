@@ -83,7 +83,11 @@
   "item.oar_combat.mythril_longsword": "Mythril Longsword",
   "item.oar_combat.mythril_spear": "Mythril Spear",
   "item.oar_combat.mythril_battleaxe": "Mythril Battleaxe",
+  "item.oar_combat.mythril_greatsword": "Mythril Greatsword",
+  "item.oar_combat.mythril_scythe": "Mythril Scythe",
   "item.oar_combat.adamantite_longsword": "Adamantite Longsword",
   "item.oar_combat.adamantite_spear": "Adamantite Spear",
-  "item.oar_combat.adamantite_battleaxe": "Adamantite Battleaxe"
+  "item.oar_combat.adamantite_battleaxe": "Adamantite Battleaxe",
+  "item.oar_combat.adamantite_greatsword": "Adamantite Greatsword",
+  "item.oar_combat.adamantite_scythe": "Adamantite Scythe"
 }

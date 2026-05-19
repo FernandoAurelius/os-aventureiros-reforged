@@ -38,6 +38,14 @@ public final class OarSpartanCompat {
         return createWeapon("createBattleaxe", materialName, tier, repairTag, traitsTag, () -> new AxeItem(tier, new Item.Properties()));
     }
 
+    public static Item createGreatsword(String materialName, Tier tier, TagKey<Item> repairTag, TagKey<?> traitsTag) {
+        return createWeapon("createGreatsword", materialName, tier, repairTag, traitsTag, () -> new SwordItem(tier, new Item.Properties()));
+    }
+
+    public static Item createScythe(String materialName, Tier tier, TagKey<Item> repairTag, TagKey<?> traitsTag) {
+        return createWeapon("createScythe", materialName, tier, repairTag, traitsTag, () -> new SwordItem(tier, new Item.Properties()));
+    }
+
     private static Item createWeapon(String methodName, String materialName, Tier tier, TagKey<Item> repairTag, TagKey<?> traitsTag, Supplier<Item> fallback) {
         if (!isLoaded()) {
             return fallback.get();

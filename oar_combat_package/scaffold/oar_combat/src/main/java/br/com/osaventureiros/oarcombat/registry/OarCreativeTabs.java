@@ -98,9 +98,13 @@ public final class OarCreativeTabs {
                 if (OarItems.MYTHRIL_LONGSWORD != null) output.accept(OarItems.MYTHRIL_LONGSWORD);
                 if (OarItems.MYTHRIL_SPEAR != null) output.accept(OarItems.MYTHRIL_SPEAR);
                 if (OarItems.MYTHRIL_BATTLEAXE != null) output.accept(OarItems.MYTHRIL_BATTLEAXE);
+                if (OarItems.MYTHRIL_GREATSWORD != null) output.accept(OarItems.MYTHRIL_GREATSWORD);
+                if (OarItems.MYTHRIL_SCYTHE != null) output.accept(OarItems.MYTHRIL_SCYTHE);
                 if (OarItems.ADAMANTITE_LONGSWORD != null) output.accept(OarItems.ADAMANTITE_LONGSWORD);
                 if (OarItems.ADAMANTITE_SPEAR != null) output.accept(OarItems.ADAMANTITE_SPEAR);
                 if (OarItems.ADAMANTITE_BATTLEAXE != null) output.accept(OarItems.ADAMANTITE_BATTLEAXE);
+                if (OarItems.ADAMANTITE_GREATSWORD != null) output.accept(OarItems.ADAMANTITE_GREATSWORD);
+                if (OarItems.ADAMANTITE_SCYTHE != null) output.accept(OarItems.ADAMANTITE_SCYTHE);
             })
             .build());
 

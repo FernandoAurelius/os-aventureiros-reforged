@@ -106,9 +106,13 @@ public final class OarItems {
     public static Item ADAMANTITE_LONGSWORD;
     public static Item ADAMANTITE_SPEAR;
     public static Item ADAMANTITE_BATTLEAXE;
+    public static Item ADAMANTITE_GREATSWORD;
+    public static Item ADAMANTITE_SCYTHE;
     public static Item MYTHRIL_LONGSWORD;
     public static Item MYTHRIL_SPEAR;
     public static Item MYTHRIL_BATTLEAXE;
+    public static Item MYTHRIL_GREATSWORD;
+    public static Item MYTHRIL_SCYTHE;
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -119,9 +123,13 @@ public final class OarItems {
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "adamantite_longsword"), () -> ADAMANTITE_LONGSWORD = OarSpartanCompat.createLongsword("adamantite", OarToolTiers.ADAMANTITE, OarTags.C_INGOTS_ADAMANTITE, OarTags.SPARTAN_MATERIAL_TRAITS_ADAMANTITE));
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "adamantite_spear"), () -> ADAMANTITE_SPEAR = OarSpartanCompat.createSpear("adamantite", OarToolTiers.ADAMANTITE, OarTags.C_INGOTS_ADAMANTITE, OarTags.SPARTAN_MATERIAL_TRAITS_ADAMANTITE));
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "adamantite_battleaxe"), () -> ADAMANTITE_BATTLEAXE = OarSpartanCompat.createBattleaxe("adamantite", OarToolTiers.ADAMANTITE, OarTags.C_INGOTS_ADAMANTITE, OarTags.SPARTAN_MATERIAL_TRAITS_ADAMANTITE));
+        event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "adamantite_greatsword"), () -> ADAMANTITE_GREATSWORD = OarSpartanCompat.createGreatsword("adamantite", OarToolTiers.ADAMANTITE, OarTags.C_INGOTS_ADAMANTITE, OarTags.SPARTAN_MATERIAL_TRAITS_ADAMANTITE));
+        event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "adamantite_scythe"), () -> ADAMANTITE_SCYTHE = OarSpartanCompat.createScythe("adamantite", OarToolTiers.ADAMANTITE, OarTags.C_INGOTS_ADAMANTITE, OarTags.SPARTAN_MATERIAL_TRAITS_ADAMANTITE));
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "mythril_longsword"), () -> MYTHRIL_LONGSWORD = OarSpartanCompat.createLongsword("mythril", OarToolTiers.MYTHRIL, OarTags.C_INGOTS_MYTHRIL, OarTags.SPARTAN_MATERIAL_TRAITS_MYTHRIL));
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "mythril_spear"), () -> MYTHRIL_SPEAR = OarSpartanCompat.createSpear("mythril", OarToolTiers.MYTHRIL, OarTags.C_INGOTS_MYTHRIL, OarTags.SPARTAN_MATERIAL_TRAITS_MYTHRIL));
         event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "mythril_battleaxe"), () -> MYTHRIL_BATTLEAXE = OarSpartanCompat.createBattleaxe("mythril", OarToolTiers.MYTHRIL, OarTags.C_INGOTS_MYTHRIL, OarTags.SPARTAN_MATERIAL_TRAITS_MYTHRIL));
+        event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "mythril_greatsword"), () -> MYTHRIL_GREATSWORD = OarSpartanCompat.createGreatsword("mythril", OarToolTiers.MYTHRIL, OarTags.C_INGOTS_MYTHRIL, OarTags.SPARTAN_MATERIAL_TRAITS_MYTHRIL));
+        event.register(net.minecraft.core.registries.Registries.ITEM, net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(OarCombat.MOD_ID, "mythril_scythe"), () -> MYTHRIL_SCYTHE = OarSpartanCompat.createScythe("mythril", OarToolTiers.MYTHRIL, OarTags.C_INGOTS_MYTHRIL, OarTags.SPARTAN_MATERIAL_TRAITS_MYTHRIL));
     }
 
     private static DeferredItem<ArmorItem> armor(String id, net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.ArmorMaterial, net.minecraft.world.item.ArmorMaterial> material, ArmorItem.Type type) {
