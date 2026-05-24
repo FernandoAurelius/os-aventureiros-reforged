@@ -1,4 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
-  "textures": { "all": "oar_combat:block/mythril_block" }
+  "textures": {
+    "all": "oar_combat:block/mythril_block"
+  }
 }

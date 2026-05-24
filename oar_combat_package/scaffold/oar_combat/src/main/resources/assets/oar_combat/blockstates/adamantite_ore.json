@@ -1,3 +1,7 @@
 {
-  "variants": { "": { "model": "oar_combat:block/adamantite_ore" } }
+  "variants": {
+    "": {
+      "model": "oar_combat:block/adamantite_ore"
+    }
+  }
 }

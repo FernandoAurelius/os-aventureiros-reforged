@@ -1,4 +1,6 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": { "layer0": "oar_combat:item/raw_adamantite" }
+  "textures": {
+    "layer0": "oar_combat:item/raw_adamantite"
+  }
 }

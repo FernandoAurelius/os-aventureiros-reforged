@@ -1,3 +1,7 @@
 {
-  "variants": { "": { "model": "oar_combat:block/mythril_block" } }
+  "variants": {
+    "": {
+      "model": "oar_combat:block/mythril_block"
+    }
+  }
 }
